@@ -93,7 +93,7 @@ input {
 	grid-row-gap: 20px;
 	grid-column-gap: 20px;
         overflow: hidden;
-
+        width: 100%;
 }
 
 h4 {
