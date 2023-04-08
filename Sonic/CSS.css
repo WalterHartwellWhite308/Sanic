@@ -1,0 +1,133 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: grey;
+}
+
+.HeaderClass {
+	color: azure;
+	overflow: hidden;
+	background-color: darkgoldenrod;
+}
+
+.HeaderClass img {
+	float: left;
+	cursor: crosshair;
+}
+
+.HeaderClass ul {
+	float: right;
+	list-style: none;
+	padding: none;
+	display: flex;
+	flex-direction: row;
+}
+
+.HeaderClass li {
+	margin-right: 20px;
+}
+
+.HeaderClass a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.HeaderClass a:hover {
+	color: blueviolet;
+}
+
+.Kek {
+	background-image: url("DioBanner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 500px;
+	color: azure;
+	align-items: center;
+}
+
+input {
+	background-color: coral;
+	padding: 15px 10px;
+	border-radius: 5px;
+	border-style: none;
+	color: green;
+	text-align: center;
+		cursor: pointer;
+}
+
+.topkek {
+	background-color: coral;
+	padding: 15px 10px;
+	border-radius: 5px;
+	border-style: none;
+	margin-top: 40px;
+	color: green;
+}
+
+.topkek a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.GG {
+	background-color: black;
+	margin: 0px;
+	display: grid;
+}
+
+.GG img {
+	width: 100%;
+	height: auto;
+	margin: 20px;
+	
+}
+
+.GG div {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-row-gap: 20px;
+	grid-column-gap: 20px;
+	overflow: hidden;
+	object-fit: cover;
+	margin: 20px;
+}
+
+h4 {
+	text-align: center;
+	color: azure;
+	background-image: radial-gradient(darkgoldenrod, azure);
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 20px;
+	justify-content: center;
+}
+
+h3 {
+	margin-left: 20px;
+	margin-top: 100px;
+	color: azure;
+}
+
+h2 {
+	font-size: medium;
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+}
+
+p {
+	margin-top: 20px;
+	font-size: medium;
+	text-align: center;
+	color: white;
+}
+
+footer{
+	margin-top: auto;
+}
